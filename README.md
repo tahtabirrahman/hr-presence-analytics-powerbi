@@ -63,7 +63,7 @@ REMOVEFILTERS locks the denominator so it only respects Date and Employee filter
 
 ### 2. Fixed blank values on days with no matching data
 
-### Days with zero matching rows (e.g., a fixed week-off day) returned blank instead of 0%, since a blank numerator in DIVIDE stays blank even with a specified default value. Fixed by forcing blank-to-zero conversion:
+Days with zero matching rows (e.g., a fixed week-off day) returned blank instead of 0%, since a blank numerator in DIVIDE stays blank even with a specified default value. Fixed by forcing blank-to-zero conversion:
 
 dax
 Presence % = DIVIDE([Present Days], [Total Working Days], 0) + 0
@@ -72,7 +72,7 @@ BLANK() + 0 evaluates to 0 in DAX, ensuring every day in the week displays a rea
 
 ### 3. Built a dedicated Day-of-Week dimension table
 
-### Sorting "Day of Week" correctly (Mon → Sun instead of alphabetical) required a Sort by Column relationship. To also ensure days with no data (e.g., week-offs) still appear in tables rather than vanishing entirely, a small standalone Days table (Mon–Sun + numeric sort key) was created and related to the fact table, with "Show items with no data" enabled on the visual-level field.
+Sorting "Day of Week" correctly (Mon → Sun instead of alphabetical) required a Sort by Column relationship. To also ensure days with no data (e.g., week-offs) still appear in tables rather than vanishing entirely, a small standalone Days table (Mon–Sun + numeric sort key) was created and related to the fact table, with "Show items with no data" enabled on the visual-level field.
 
 ## 🛠️ Tech Stack
 Power BI Desktop — data modeling, DAX measures, report design
