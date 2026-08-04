@@ -80,10 +80,12 @@ DAX — custom measures for Presence %, WFH %, SL %, Total Working Days
 Data modeling — star-schema-style relationship between a fact table (Final Data) and a small dimension table (Days)
 
 ## 📁 Files in this repo
-   ├── README.md
-   ├── Tahtabir-Presence-Insights.pbix
-   └── screenshots/
-       └── (dashboard images)
+   ```
+├── README.md
+├── Tahtabir-Presence-Insights.pbix
+└── screenshots/
+    └── (dashboard images)
+```
       
 ## 🚀 How to Use
 Clone or download this repo
