@@ -8,9 +8,9 @@
 
 The dashboard answers three core questions for HR stakeholders:
 
-What percentage of scheduled working days were employees actually present?
-How much of that time was spent working from home vs. in-office?
-What's the sick leave trend, and does it vary by day of the week?
+1. What percentage of scheduled working days were employees actually present?
+2. How much of that time was spent working from home vs. in-office?
+3. What's the sick leave trend, and does it vary by day of the week?
 
 It supports filtering by month and by a custom date range, and breaks down each metric both by individual employee and by day of the week.
 
