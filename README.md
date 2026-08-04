@@ -19,10 +19,6 @@ It supports filtering by month and by a custom date range, and breaks down each 
 <img width="1777" height="797" alt="dashboard-overview png" src="https://github.com/user-attachments/assets/504ca6dd-eeec-4f17-b6db-0f67ad0217d6" />
 <img width="259" height="689" alt="day-of-week-tables png" src="https://github.com/user-attachments/assets/4a6dcd17-a616-42b2-b988-eac31fe57048" />
 
-markdown
-![Dashboard Overview](screenshots/dashboard-overview.png)
-![Day of Week Breakdown](screenshots/day-of-week-tables.png)
-
 ## ⚙️ Features
 KPI cards — Presence %, WFH %, and SL % at a glance
 Trend charts — daily line charts for each metric across the selected date range
