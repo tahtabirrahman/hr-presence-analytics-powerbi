@@ -1,2 +1,5 @@
-# hr-presence-analytics-powerbi
-Power BI dashboard analyzing employee presence, WFH, and sick leave trends — includes DAX fixes for accurate percentage calculations and day-of-week data completeness.
+#Tahtabir Presence Insights — Power BI Dashboard
+
+##An HR analytics dashboard built in Power BI to track employee presence, work-from-home, and sick leave patterns across a rolling date range. The project focuses on accurate percentage calculations, clean day-of-week trend analysis, and a readable, filterable layout.
+
+###Note: This project uses a publicly available sample dataset from Kaggle for demonstration purposes. All employee names and data are fictional.
