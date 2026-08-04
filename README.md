@@ -78,11 +78,13 @@ Sorting "Day of Week" correctly (Mon → Sun instead of alphabetical) required a
 Power BI Desktop — data modeling, DAX measures, report design
 DAX — custom measures for Presence %, WFH %, SL %, Total Working Days
 Data modeling — star-schema-style relationship between a fact table (Final Data) and a small dimension table (Days)
-📁 Files in this repo
-├── README.md
-├── Tahtabir-Presence-Insights.pbix
-└── screenshots/
-    └── (dashboard images)
+
+## 📁 Files in this repo
+   ├── README.md
+   ├── Tahtabir-Presence-Insights.pbix
+   └── screenshots/
+       └── (dashboard images)
+      
 ## 🚀 How to Use
 Clone or download this repo
 Open Tahtabir-Presence-Insights.pbix in Power BI Desktop
