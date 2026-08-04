@@ -27,9 +27,9 @@ Day-of-week analysis — Mon–Sun breakdown for each metric, including days wit
 Month buttons + custom date range slicer — quick filtering by month or precise start/end date
 Consistent color coding — each metric (Presence, WFH, SL) has a dedicated color used across cards, charts, and tables
 ## 🧠 Technical Highlights
-1. Fixed a denominator bug causing percentages above 100%
+### 1. Fixed a denominator bug causing percentages above 100%
 
-### The initial Total Working Days measure recalculated its denominator based on whatever filter context was active on the visual — including filters applied to the Value column (e.g., excluding week-offs). This caused the denominator to shrink whenever a Value-based filter was applied, inflating results past 100%.
+The initial Total Working Days measure recalculated its denominator based on whatever filter context was active on the visual — including filters applied to the Value column (e.g., excluding week-offs). This caused the denominator to shrink whenever a Value-based filter was applied, inflating results past 100%.
 
 Before (buggy):
 
@@ -61,7 +61,7 @@ totaldays - nonworkdays
 
 REMOVEFILTERS locks the denominator so it only respects Date and Employee filters — not whatever slice of the Value column a visual happens to be filtering on. This keeps Presence %, WFH %, and SL % mathematically valid regardless of which categories are shown or hidden.
 
-2. Fixed blank values on days with no matching data
+### 2. Fixed blank values on days with no matching data
 
 ### Days with zero matching rows (e.g., a fixed week-off day) returned blank instead of 0%, since a blank numerator in DIVIDE stays blank even with a specified default value. Fixed by forcing blank-to-zero conversion:
 
@@ -70,7 +70,7 @@ Presence % = DIVIDE([Present Days], [Total Working Days], 0) + 0
 
 BLANK() + 0 evaluates to 0 in DAX, ensuring every day in the week displays a real value instead of disappearing from the visual.
 
-3. Built a dedicated Day-of-Week dimension table
+### 3. Built a dedicated Day-of-Week dimension table
 
 ### Sorting "Day of Week" correctly (Mon → Sun instead of alphabetical) required a Sort by Column relationship. To also ensure days with no data (e.g., week-offs) still appear in tables rather than vanishing entirely, a small standalone Days table (Mon–Sun + numeric sort key) was created and related to the fact table, with "Show items with no data" enabled on the visual-level field.
 
