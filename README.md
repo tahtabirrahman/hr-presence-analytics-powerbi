@@ -2,7 +2,7 @@
 
 ## An HR analytics dashboard built in Power BI to track employee presence, work-from-home, and sick leave patterns across a rolling date range. The project focuses on accurate percentage calculations, clean day-of-week trend analysis, and a readable, filterable layout.
 
-**Note:** This project does not use any real employee IDs, names, or personal data. All data is sourced from a public Kaggle dataset.
+**Note:** This project does not use any real employee IDs, names, or personal data.
 
 ## 📊 Overview
 
