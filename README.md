@@ -90,6 +90,6 @@ Data modeling — star-schema-style relationship between a fact table (Final Dat
       
 ## 🚀 How to Use
 Clone or download this repo
-Open Tahtabir-Presence-Insights.pbix in Power BI Desktop
+Open HR-Analytics.pbix in Power BI Desktop
 Data is embedded/sample — no external connection required
 Use the Month buttons or Date range slicer to filter results
