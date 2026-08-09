@@ -82,7 +82,8 @@ Data modeling — star-schema-style relationship between a fact table (Final Dat
 ## 📁 Files in this repo
    ```
 ├── README.md
-├── Company-Attendance-Insights.pbix
+├── Attendance-Sheet-2025-2026.xlsx
+├── HR-Analytics.pbix
 └── screenshots/
     └── (dashboard images)
 ```
