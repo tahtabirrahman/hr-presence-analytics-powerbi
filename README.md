@@ -1,8 +1,8 @@
-# Tahtabir Presence Insights — Power BI Dashboard
+# Company Attendance Insights — Power BI Dashboard
 
 ## An HR analytics dashboard built in Power BI to track employee presence, work-from-home, and sick leave patterns across a rolling date range. The project focuses on accurate percentage calculations, clean day-of-week trend analysis, and a readable, filterable layout.
 
-### Note: This project uses a publicly available sample dataset from Kaggle for demonstration purposes. All employee names and data are fictional.
+**Note:** This project does not use any real employee IDs, names, or personal data. All data is sourced from a public Kaggle dataset.
 
 ## 📊 Overview
 
@@ -16,7 +16,7 @@ It supports filtering by month and by a custom date range, and breaks down each 
 
 🖼️ Screenshots
 
-<img width="1777" height="797" alt="dashboard-overview png" src="https://github.com/user-attachments/assets/504ca6dd-eeec-4f17-b6db-0f67ad0217d6" />
+<img width="1424" height="788" alt="image" src="https://github.com/user-attachments/assets/1de8078a-f90c-44e5-9b4d-0a36afd865ee" />
 <img width="259" height="689" alt="day-of-week-tables png" src="https://github.com/user-attachments/assets/4a6dcd17-a616-42b2-b988-eac31fe57048" />
 
 ## ⚙️ Features
