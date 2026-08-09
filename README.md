@@ -93,7 +93,3 @@ Clone or download this repo
 Open Tahtabir-Presence-Insights.pbix in Power BI Desktop
 Data is embedded/sample — no external connection required
 Use the Month buttons or Date range slicer to filter results
-## 📌 What I'd Improve Next
-Aggregate the daily trend charts to weekly/monthly view for better readability at scale
-Add a comparison view (e.g., current period vs. previous period)
-Add conditional formatting to flag employees or weeks with unusually low presence
