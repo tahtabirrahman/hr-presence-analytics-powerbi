@@ -82,7 +82,7 @@ Data modeling — star-schema-style relationship between a fact table (Final Dat
 ## 📁 Files in this repo
    ```
 ├── README.md
-├── Tahtabir-Presence-Insights.pbix
+├── Company-Attendance-Insights.pbix
 └── screenshots/
     └── (dashboard images)
 ```
